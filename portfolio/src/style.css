@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.home {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    
+    
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: url("./images/lakeplacid.JPG") no-repeat center bottom fixed;
+    background-size: cover;
+
+}
+
+.intro-content {
+    display: inline-block;
+    /*border: 1px solid white;*/
+    width: 95%;
+}
+
+    .intro-content h1 {
+        color: #eccb7a;
+        font-family: "Optima";
+        font-weight: normal;
+        font-size: 80px;
+        margin-bottom: 15px;
+    }
+
+    .intro-content h3 {
+        color: #f0eeef;
+        font-family: "Didot";
+        font-weight: normal;
+        letter-spacing: 2px;
+        font-size: 17px;
+    }
